@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+</head>
+<body>
+
+<h1>🚀 Admin Panel</h1>
+
+<p>Welcome, Developer 😎</p>
+
+<button onclick="logout()">Logout</button>
+
+<script>
+// Protect this page
+if (localStorage.getItem("admin") !== "true") {
+  alert("Access Denied");
+  window.location.href = "admin.html";
+}
+
+function logout() {
+  localStorage.removeItem("admin");
+  window.location.href = "options.html";
+}
+</script>
+
+</body>
+</html>
