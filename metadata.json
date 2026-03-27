@@ -1,0 +1,8 @@
+{
+  "name": "Yuvansh - Master Developer",
+  "description": "A high-end personal portfolio and service platform for Yuvansh, featuring custom-tier development pricing and an AI assistant to discuss your next big project.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
